@@ -1,8 +1,12 @@
 {
-  "name": "comp3104",
-  "version": "1.0.0",
-  "description": "- GitHub Action Script Added",
-  "main": "index.js",
+	"name": "comp3104",
+	"version": "1.0.0",
+	"description": "- GitHub Action Script Added",
+	"main": "index.js",
+	"engines": {
+		"node": "16.x",
+		"npm": "8.x"
+	},
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
@@ -11,17 +15,17 @@
 		"test": "echo \"Warning: No tests created yet.\"",
 		"eject": "react-scripts eject"
 	},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Hoon-Yim/COMP3104.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Hoon-Yim/COMP3104/issues"
-  },
-  "homepage": "https://github.com/Hoon-Yim/COMP3104#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Hoon-Yim/COMP3104.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Hoon-Yim/COMP3104/issues"
+	},
+	"homepage": "https://github.com/Hoon-Yim/COMP3104#readme",
 	"dependencies": {
 		"gh-pages": "^2.0.1",
 		"react": "^16.8.3",
